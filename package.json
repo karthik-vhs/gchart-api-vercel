@@ -1,9 +1,11 @@
 {
-  "name": "gchart-api-vercel",
+  "name": "gchart-express-vercel",
   "private": true,
   "type": "module",
   "dependencies": {
     "@sparticuz/chromium": "126.0.0",
-    "puppeteer-core": "22.10.0"
+    "express": "^4.19.2",
+    "puppeteer-core": "22.10.0",
+    "serverless-http": "^3.2.0"
   }
 }
