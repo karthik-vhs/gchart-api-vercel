@@ -1,5 +1,5 @@
 import serverless from 'serverless-http';
 import app from '../lib/app.js';
 
-// Remove explicit runtime version (new Vercel requires just 'nodejs' or none)
+// No runtime export (newer Vercel rejects 'nodejs20.x' here)
 export default serverless(app);
